@@ -5,14 +5,7 @@ public class 用两个栈实现队列 {
     Stack<Integer> stack2 = new Stack<Integer>();
 
     public void push(int node) {
-        if(stack2.isEmpty()){
             stack1.push(node);
-        }else {
-            while(!stack2.isEmpty()){
-                stack1.push(stack2.pop());
-            }
-            stack1.push(node);
-        }
     }
 
     public int pop() {
