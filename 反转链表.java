@@ -11,6 +11,5 @@ public class 反转链表 {
             cur = tem;
         }
         return  pre;
-
     }
 }
